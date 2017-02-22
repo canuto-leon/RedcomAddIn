@@ -95,7 +95,7 @@ function eliminarItem(oItem) {
     context.executeQueryAsync(onDeleteItemSuccess, onDeleteItemFail);
     function onDeleteItemSuccess() {
         alert("Elemento eliminado.");
-        location.reload();
+        document.location.href = document.location.href;
     }
     function onDeleteItemFail(sender, args) {
         alert('Failed to get items. Error:' + args.get_message());
