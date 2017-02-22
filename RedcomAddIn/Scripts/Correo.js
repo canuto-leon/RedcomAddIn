@@ -90,7 +90,7 @@ function sendMail(toList, subject, mailContent) {
                 'results': toList
             },
             'Subject': subject,
-            'Body': mailContent,
+            'Body': mailContent
         }
     };
     return $.ajax({

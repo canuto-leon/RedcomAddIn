@@ -48,7 +48,7 @@
     <table id="tablaItems">
         <tr>
             <th>Título</th>
-            <th>Correo autor</th>
+            <!--<th>Correo autor</th-->
             <th>Eliminar</th>
         </tr>
     </table>

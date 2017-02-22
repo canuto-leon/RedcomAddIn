@@ -102,10 +102,10 @@ function anadeFilaItems(oItem) {
     var row = tabla.insertRow(tabla.rows.length);
     var cell = row.insertCell();
     cell.innerHTML = "<a href='" + url + "' target='_blank'>" + titulo + "</a>";
-    cell = row.insertCell();
-    cell.innerHTML = "<img src='../Images/email25x25.png'>";
-    cell.style.textAlign = "center";
-    cell.addEventListener("click", function () { redireccionaCorreo(url, mail); });
+    //cell = row.insertCell();
+    //cell.innerHTML = "<img src='../Images/email25x25.png'>";
+    //cell.style.textAlign = "center";
+    //cell.addEventListener("click", function () { redireccionaCorreo(url, mail); });
     cell = row.insertCell();
     cell.innerHTML = "<img src='../Images/eliminar25x25.png'>";
     cell.style.textAlign = "center";
@@ -125,7 +125,7 @@ function eliminarItem(oItem) {
     function onDeleteItemSuccess()
     {
         alert("Elemento eliminado.");
-        window.location.reload();
+        location.reload();
     }
     function onDeleteItemFail(sender, args) {
         alert('Failed to get items. Error:' + args.get_message());
