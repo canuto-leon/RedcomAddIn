@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="GestionListas_1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Correo_1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.1.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="typings\microsoft-ajax\microsoft.ajax.d.ts" Target="Scripts\typings\microsoft-ajax\" Type="ElementFile" />
+    <ProjectItemFile Source="typings\sharepoint\SharePoint.d.ts" Target="Scripts\typings\sharepoint\" Type="ElementFile" />
+    <ProjectItemFile Source="typings\jquery\jquery.d.ts" Target="Scripts\typings\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="GestionListas.ts" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="GestionListas.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="GestionListas.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Items.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Items.ts" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Comunes.ts" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Comunes.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Comunes.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Correo.ts" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Items.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Correo.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Correo.js.map" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

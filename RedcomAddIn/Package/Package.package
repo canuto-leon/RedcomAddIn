@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="3bf159bd-7de0-4cbd-9226-0fa2011d7b2a" 
+        solutionId="3bf159bd-7de0-4cbd-9226-0fa2011d7b2a" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="RedcomAddIn"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="5dc5f132-65a7-432f-ad24-4656d2e8e43c" />
+  </features>
+</package>

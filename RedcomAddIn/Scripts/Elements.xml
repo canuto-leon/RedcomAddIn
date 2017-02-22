@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\Correo_1.js" Url="Scripts/Correo_1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GestionListas_1.js" Url="Scripts/GestionListas_1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Correo_1.js" Url="Scripts/Correo_1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.js" Url="Scripts/jquery-3.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" Url="Scripts/typings/microsoft-ajax/microsoft.ajax.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\sharepoint\SharePoint.d.ts" Url="Scripts/typings/sharepoint/SharePoint.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\jquery\jquery.d.ts" Url="Scripts/typings/jquery/jquery.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\GestionListas.ts" Url="Scripts/GestionListas.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\GestionListas.js" Url="Scripts/GestionListas.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GestionListas.js.map" Url="Scripts/GestionListas.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\Items.js" Url="Scripts/Items.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Items.ts" Url="Scripts/Items.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\Comunes.ts" Url="Scripts/Comunes.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\Comunes.js" Url="Scripts/Comunes.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Comunes.js.map" Url="Scripts/Comunes.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\Correo.ts" Url="Scripts/Correo.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\Items.js.map" Url="Scripts/Items.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\Correo.js" Url="Scripts/Correo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Correo.js.map" Url="Scripts/Correo.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

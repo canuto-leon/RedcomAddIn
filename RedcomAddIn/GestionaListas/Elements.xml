@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="GestionaListas" Title="Gestion de listas" Description="Sirve para gestionar listas" DefaultWidth="600" DefaultHeight="600">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/GestionaListas.aspx?{StandardTokens}&amp;MostrarListas=_MostrarListas_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>
+      <Property Name="MostrarListas" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebBrowsable="true" WebDisplayName="Mostrar listas ocultas" WebDescription="Permite mostrar u ocultar listas ocultas" WebCategory="Propiedades de lista" />
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

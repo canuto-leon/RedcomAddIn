@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\GestionaListas.aspx" Url="Pages/GestionaListas.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\SendMail.aspx" Url="Pages/SendMail.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Items.aspx" Url="Pages/Items.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Correo.aspx" Url="Pages/Correo.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
