@@ -19,6 +19,5 @@
   </RemoteEndpoints>
   <AppPermissionRequests>
     <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Write" />
-    <AppPermissionRequest Scope="http://sharepoint/content/tenant" Right="Read" />
   </AppPermissionRequests>
 </App>
