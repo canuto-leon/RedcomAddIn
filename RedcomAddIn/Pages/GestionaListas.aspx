@@ -44,6 +44,7 @@
     </script>
 </head>
 <body>
+    <h1>Id de colección <span id="idColeccion"></span></h1>
     <h1>Listas en <span id="nombreSitio"></span></h1>
     <table id="tablaListas">
         <tr>

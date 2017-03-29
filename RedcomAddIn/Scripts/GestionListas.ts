@@ -2,6 +2,7 @@
 ///<reference path="typings/jquery/jquery.d.ts" />
 
 var web;
+var site;
 var oLists;
 let mostrarOcultas: boolean = false;
 
@@ -27,7 +28,24 @@ function createExecutorAndContextListas() {
     factory = new SP.ProxyWebRequestExecutorFactory(appweburl);
     context.set_webRequestExecutorFactory(factory);
     appContextSite = new SP.AppContextSite(context, hostweburl);
-    getListsFromWeb();
+    getSiteId();
+}
+
+function getSiteId()
+{
+    site = appContextSite.get_site();
+    context.load(site);
+
+    context.executeQueryAsync(onGetSiteSuccess, onGetSiteFail);
+
+    function onGetSiteSuccess() {
+        $('#idColeccion')[0].innerHTML = site.get_id();
+        getListsFromWeb();
+    }
+
+    function onGetSiteFail(sender, args) {
+        alert('Failed to get site. Error:' + args.get_message());
+    }
 }
 
 function getListsFromWeb() {
